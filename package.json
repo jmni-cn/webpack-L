@@ -1,0 +1,25 @@
+{
+  "name": "webpack-l",
+  "version": "1.0.0",
+  "description": "手写webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack build --mode=development",
+    "dev": "node ./debugger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmni-cn/webpack-L.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmni-cn/webpack-L/issues"
+  },
+  "homepage": "https://github.com/jmni-cn/webpack-L#readme",
+  "dependencies": {
+    "@babel/core": "^7.20.2",
+    "tapable": "^2.2.1",
+    "webpack": "^5.75.0"
+  }
+}
